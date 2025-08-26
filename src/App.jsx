@@ -5,6 +5,7 @@ import Home from './Component/Home'
 import Navbar from './Component/Navbar'
 import Hero from './Component/Hero'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import Contact from './Component/Contact'
 import './App.css'
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       element: <Home/>
     },
     {
+      path: '/contact',
+      element: <Contact/>
     }
   ])
 
