@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from './Utilities/Slider'
+import Main from './Main'
 
 function Hero() {
   return (
@@ -14,6 +15,8 @@ function Hero() {
         <a href="#destinations" className="inline-block px-8 py-3 bg-blue-600 text-white rounded-full text-lg shadow hover:bg-blue-800 transition">Get Started</a>
       </div>
     </section>
+
+    <Main/>
 
     </>
   )
